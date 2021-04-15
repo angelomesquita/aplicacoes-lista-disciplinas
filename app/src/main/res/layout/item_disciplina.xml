@@ -44,17 +44,22 @@
 
             <TextView
                 android:id="@+id/item_disciplina_titulo_disciplina"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
                 android:hapticFeedbackEnabled="false"
-                tools:text="@sample/disciplinas.json/disciplinas/titulo_disciplina"
                 android:textColor="@android:color/white"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="@id/item_disciplina_background_disciplina"
                 app:layout_constraintEnd_toEndOf="@id/item_disciplina_background_disciplina"
-                app:layout_constraintHorizontal_bias="0.30"
+                app:layout_constraintHorizontal_bias="0.2"
                 app:layout_constraintStart_toStartOf="@id/item_disciplina_background_disciplina"
-                app:layout_constraintTop_toTopOf="@id/item_disciplina_background_disciplina" />
+                app:layout_constraintTop_toTopOf="@id/item_disciplina_background_disciplina"
+                tools:text="@sample/disciplinas.json/disciplinas/titulo_disciplina"
+                 />
 
             <TextView
                 android:id="@+id/item_disciplina_carga_horaria"
